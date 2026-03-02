@@ -32,11 +32,7 @@ env/
 Thumbs.db
 desktop.ini
 
-# Data files (sensitive)
-data/*.xlsx
-data/*.csv
-data/*.json
-data/*.db
+
 
 # Logs
 *.log
@@ -50,3 +46,16 @@ logs/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Google ADK
+.adk
+__pycache__/
+*.pyc
+
+# ADK session / cache artifacts
+.adk_cache/
+adk_sessions/
+.sessions/
+session_*.json
+
+data/~$*
